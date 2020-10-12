@@ -1,13 +1,32 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.visible{
+visibility: visible;
+}
+.hidden{
+    visibility:hidden;
+}
+.container{
+    background: white;
+    width:600px;
+    height:800px;
+    
+  
+}
+.container-fluid{
+    background: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
 
-    You can write your own styles here...
+li{
+    list-style-type:none;
+}
+   
+ul{
+    border: 1px solid gray;
+    width:75%;
+  
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
